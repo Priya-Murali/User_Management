@@ -1,0 +1,43 @@
+<div class="login">
+    <div class="login-triangle"></div>
+    <h2 class="login-header">REGISTER</h2>
+    <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="login-container">
+        <div id="card" formGroupName="userData">
+            <div class="form-group">
+                <label for="id" class="lbl"id="cls">Name</label><br>
+                <input type="text" id="name" class="form-control" formControlName="name" placeholder="Enter Username/Email"><br>
+                <span *ngIf="!signupForm.get('userData.name').valid && signupForm.get('userData.name').touched">
+                    Please enter a valid name
+                </span>
+            </div>
+            <div class="form-group">
+                <label for="id" class="lbl"id="cls">Phone</label><br>
+                <input type="text" id="phonenumber" class="form-control" formControlName="phonenumber" placeholder="Enter your phone number"><br>
+                <span *ngIf="!signupForm.get('userData.phonenumber').valid && signupForm.get('userData.phonenumber').touched">
+                    Please enter a valid phonenumber
+                </span>
+            </div>
+            <div class="form-group">
+                <label for="id" class="lbl"  id="cls">Email</label><br>
+                <input type="text" id="name" class="form-control" formControlName="name" placeholder="Enter Email"><br>
+                <span *ngIf="!signupForm.get('userData.name').valid && signupForm.get('userData.name').touched">
+                    Please enter a valid Email
+                </span>
+            </div>
+            
+            
+            <div class="form-group" id="pwd">
+                <label for="id" class="lbl"id="cls">Password</label><br>
+                <input type="text" id="password" class="form-control" formControlName="password" placeholder="Enter the password"><br>
+               <!-- <a class="forgotpwd" href="" type="submit">Forgot Password?</a>-->
+               <span *ngIf="!signupForm.get('userData.password').valid && signupForm.get('userData.name').touched">
+                Please enter a valid password
+            </span>                   
+            </div> 
+            <div class="button">
+                <input type="button" class="submit" value="submit" id="btn"  (click)="changeView()">
+            </div>
+        </div>
+    </form>
+  </div>
+  

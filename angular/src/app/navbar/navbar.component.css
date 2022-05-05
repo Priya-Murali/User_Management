@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    height: 50%;
+    background-color:#0a2c92;
+    -webkit-text-size-adjust: 100%;
+    }
+   
+.navbar-brand {
+        color: whitesmoke;
+        font-weight: 800;
+}
+.im{
+        margin-left: 1cm;
+}
+#txt{
+font-size: 20px;
+color: rgba(248, 248, 248, 0.982);
+font-family: 'Bebas Neue', cursive;
+font-family: 'BioRhyme', serif;
+font-family: 'Bitter', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 700;
+}
+#txt:hover{
+    color: rgb(251, 255, 9);
+    font-size: 25px;
+    font-size-adjust: inherit;
+}
+.navb{
+-webkit-text-size-adjust: 100%;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+font-weight: 800;
+line-height: 24px;
+box-sizing: inherit;
+border-style: none;
+height: 90%;
+position: absolute;
+color: #fff;
+display: inline-block;
+font-size: 2.1rem;
+left: 20%;
+top:10%;
+transform: translateX(-50%);
+}
+#don{
+    position: absolute;
+    color: #fff;
+  top:50%;
+  font-weight: 600;
+    font-size: 1.4rem;  
+    left: 25%; 
+}

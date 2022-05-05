@@ -1,0 +1,42 @@
+*{
+    margin: 2%;
+    padding: 0%;
+}
+.p1{
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.t1 th {
+          padding: 0.5rem;
+          vertical-align: middle;
+          line-height: 1.5rem;
+          border: solid 1px #ddd;
+          text-align: left;
+          width: 20cm;
+        }
+        .t2 th {
+            padding: 0.5rem;
+            vertical-align: middle;
+            line-height: 1.5rem;
+            border: solid 1px #ddd;
+            text-align: left;
+            width: 10cm;
+          }
+.t2{
+    background-color: #83898810;
+}
+button{
+    border: rgb(243, 239, 239);
+    background-color: #13c813;
+    width: 5cm;
+    color: rgb(4, 4, 4);
+    font: 1em sans-serif bolder;
+    font-weight: 500;
+}

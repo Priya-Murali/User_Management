@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Oswald&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Oswald&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 2%;
+    padding: 0%;
+font-family:'Times New Roman', Times, serif;
+
+}
+h1{
+color: #0a2c92;
+}
+p{
+	font-size: large;
+}
+.cl3
+{
+	background-color: rgb(245, 244, 243);
+}
+td{
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.img{
+	vertical-align: middle;
+	height: 6cm;
+	width: 10cm;
+}
+h2{
+	color: #0a2c92;
+}
+td{
+	width: 20cm;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	right: 0;
+	background-color:#0a2c92 ;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+	width: 100%;
+	left: 0;
+  }
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+  }
+  /* .lis{
+	-webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    list-style-type: disc;
+    border: 1px solid #ccc;
+    color: #333;
+    font-family: "latoregular";
+    font-size: 16px;
+    line-height: 1.6;
+    display: block;
+    float: left;
+    margin-left: 2.762430939%;
+    box-sizing: border-box;
+    width: 25%;
+    min-height: 1px;
+    background: #0a2c92;
+    height: 247px;
+  } */
+  .main-heading{
+	font-size: larger;
+	color: rgb(250, 247, 247);
+  }
+.sub-heading{
+	font-size: larger;
+	color: rgb(250, 247, 247)
+  }
+.description{
+	font-size: larger;
+	color: rgb(250, 247, 247)
+}

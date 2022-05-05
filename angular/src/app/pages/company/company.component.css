@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Oswald&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 2%;
+    padding: 0%;
+}h5{
+font-size: medium;
+}
+h2{
+	color: #0a2c92;
+    font-size: x-larger;
+}

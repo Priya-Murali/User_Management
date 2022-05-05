@@ -1,0 +1,34 @@
+<div class="container">
+<div class="login">
+  <img class="im" src="https://media.istockphoto.com/vectors/administrator-laptop-vector-id1216514124?k=20&m=1216514124&s=612x612&w=0&h=ATbQJqHRc-o5H0KYjMlJERiODQKJCdM_WlK62JhlSMA="height="100cm" width="120cm">
+    <div class="login-triangle"></div>
+    <h2 class="login-header">Log in</h2>
+    <form class="login-container" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+      <div formGroupName="userData">
+          <div class="form-group">
+              <label for="id" class="label" id="cls">Username</label><br>
+              <input type="text" id="name" class="form-control" formControlName="name" placeholder="Enter Username/Email"><br>
+              <span *ngIf="!signupForm.get('userData.name').valid && signupForm.get('userData.name').touched">
+                  Please enter a valid name
+              </span>
+          </div>
+          <div class="form-group" id="pwd">
+              <label for="id" class="label"id="cls">Password</label><br>
+              <input type="text" id="password" class="form-control" formControlName="password" placeholder="Enter the password"><br>
+            <!-- <a class="forgotpwd" href="" type="submit">Forgot Password?</a> -->
+             <span *ngIf="!signupForm.get('userData.password').valid && signupForm.get('userData.name').touched">
+              Please enter a valid password
+          </span>                  
+          </div> 
+          <div class="button">
+              <input type="button" class="submit" value="submit" id="btn"  (click)="changeView()"  [routerLink]="['/navbar']" >
+          </div><br>
+          <div class="button2">
+              <label id="cls">Not a member?</label> &nbsp;&nbsp;&nbsp;
+              <button type="submit"  (click)="changeView()" class="btn" [routerLink]="['/register']">create account</button>
+          </div>
+          
+      </div>
+  </form>
+  </div>
+</div>
